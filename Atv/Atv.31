@@ -1,7 +1,5 @@
- {
-   {Scanner teclado = new Scanner(System.in);
-    
-    int Num; 
+{
+  { int Num; 
     
     System.out.println("Digite uma note entre 0 e 10");
      Num = teclado.nextInt();

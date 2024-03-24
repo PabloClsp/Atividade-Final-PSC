@@ -1,4 +1,4 @@
- Scanner teclado = new Scanner(System.in);
+ {{Scanner teclado = new Scanner(System.in);
         double populacaoA, populacaoB, anos = 0;
         double taxaCrescimentoA, taxaCrescimentoB;
 
@@ -29,4 +29,5 @@
 
             System.out.println("A população do país A ultrapassará a população do país B em " + (int)anos + " anos.");
         }
-    
+    }
+}
