@@ -1,35 +1,22 @@
-{
+import org.apache.log4j.Logger;
 
-     {  String Nome, Email; 
-        
-        System.out.println("Digite seu Nome");
-         Nome = teclado.nextLine();
+public class ExemploLog4j 
+    // Cria uma instância do Logger
+    private static final Logger logger = Logger.getLogger(ExemploLog4j.class);
 
-         System.out.println("Digite seu Email");
-         Email = teclado.nextLine();
+    public static void main(String[] args) 
+ public static void main(string[] args){
+    log.info("iniciou o programa")
 
-         
-         
-            while (Nome.equals(Email)) {
+    try{
+        Thread.sleep(|:5000);
+        var x + 4/0;
+    log.info("Resultado da divisão é: " + x)    
+    }catch (ArithmeticExpetion e){
 
-                System.out.println("O nome de usuario não pode ser igual ao email");
+    }catch(InterruptedExpetoon e){
+     LOg.error("Erro de theread", e);   
+    }
 
-                System.out.println("Digite seu Nome");
-         Nome = teclado.nextLine();
-
-         System.out.println("Digite seu Email");
-         Email = teclado.nextLine();
-                
-            }
-            System.out.println("Cadastro realizado com sucesso");
-         
-        
-       
-        
-    
-    
-    
-      }
-    
-    
-}
+    log.info("Finalizou o programa!");
+} 
